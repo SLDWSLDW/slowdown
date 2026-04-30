@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "ST4R",
+    "avatar": "https://nanxer-1322358327.cos.ap-guangzhou.myqcloud.com/blog/st4r.jpg",
+    "role": "REVERSE || Captain",
+    "description": "纯情183清纯男大",
+    "links": {
+      "github": "https://github.com/dxz0069",
+      "twitter": "",
+      "website": "https://st4r.slowdown.asia"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Nanxer",
+    "avatar": "https://nanxer-1322358327.cos.ap-guangzhou.myqcloud.com/blog/header.png",
+    "role": "Crypto",
+    "description": "Upright in deed, pure in heart.",
+    "links": {
+      "github": "https://github.com/nanxer",
+      "twitter": "",
+      "website": "https://nanxer.slowdown.asia"
+    }
+  },
+  {
+    "id": 3,
+    "name": "dreamCat",
+    "avatar": "http://dreamcat.slowdown.asia/assets/profile-DsKMkWGc.jpg",
+    "role": "REVERSE",
+    "description": "RE之神",
+    "links": {
+      "github": "https://github.com/yimeng261",
+      "twitter": "",
+      "website": "https://dreamcat.slowdown.asia"
+    }
+  }
+]
