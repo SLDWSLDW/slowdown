@@ -6,7 +6,7 @@ export default function Members() {
       <div className="page-header">
         <span className="section-comment"># cat members.txt</span>
         <h1>Team Members</h1>
-        <p className="page-description">The people behind Slowdown</p>
+        <p className="page-description">The people behind s10wd0wn</p>
       </div>
 
       <div className="members-list">
