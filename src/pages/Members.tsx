@@ -1,17 +1,18 @@
-import members from '../data/members.json'
+import config from '../../config.json'
 
 export default function Members() {
+  const { comment, title, description } = config.pages.members
   return (
     <div className="page members-page">
       <div className="page-header">
-        <span className="section-comment"># cat members.txt</span>
-        <h1>Team Members</h1>
-        <p className="page-description">The people behind s10wd0wn</p>
+        <span className="section-comment">{comment}</span>
+        <h1>{title}</h1>
+        <p className="page-description">{description}</p>
       </div>
 
       <div className="members-list">
-        {members.map((member) => (
-          <div key={member.id} className="member-card">
+        {config.members.map((member, idx) => (
+          <div key={idx} className="member-card">
             <div className="member-main">
               {member.avatar ? (
                 <img src={member.avatar} alt={member.name} className="member-avatar" />

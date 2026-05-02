@@ -1,17 +1,18 @@
-import projects from '../data/projects.json'
+import config from '../../config.json'
 
 export default function Projects() {
+  const { comment, title, description } = config.pages.projects
   return (
     <div className="page projects-page">
       <div className="page-header">
-        <span className="section-comment"># ls -la /projects/</span>
-        <h1>Projects</h1>
-        <p className="page-description">Tools and software we've built</p>
+        <span className="section-comment">{comment}</span>
+        <h1>{title}</h1>
+        <p className="page-description">{description}</p>
       </div>
 
       <div className="projects-list">
-        {projects.map((project) => (
-          <div key={project.id} className="project-card">
+        {config.projects.map((project, idx) => (
+          <div key={idx} className="project-card">
             <div className="project-card-main">
               {project.image && (
                 <img src={project.image} alt={project.title} className="project-thumb" />

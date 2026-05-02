@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Members from './pages/Members'
 import Honors from './pages/Honors'
 import Writeups from './pages/Writeups'
+import WriteupDetail from './pages/WriteupDetail'
 import Projects from './pages/Projects'
 import './App.css'
 
@@ -16,6 +17,7 @@ function App() {
           <Route path="/members" element={<Members />} />
           <Route path="/honors" element={<Honors />} />
           <Route path="/writeups" element={<Writeups />} />
+          <Route path="/writeups/:slug" element={<WriteupDetail />} />
           <Route path="/projects" element={<Projects />} />
         </Route>
       </Routes>

@@ -1,0 +1,120 @@
+{
+  "footer": {
+    "comment": "# EOF",
+    "shell": "echo \"Made with ❤️ by s10wd0wn Team\"",
+    "copyright": "\u00a9 2025-2026 s10wd0wn. All rights reserved."
+  },
+
+  "home": {
+    "terminalTitle": "slowdown.sh",
+    "banner": "  ████████  ██   ████  ██       ██ ███████    ████  ██       ██ ████     ██\n ██░░░░░░  ███  █░░░██░██      ░██░██░░░░██  █░░░██░██      ░██░██░██   ░██\n░██       ░░██ ░█  █░█░██   █  ░██░██    ░██░█  █░█░██   █  ░██░██░░██  ░██\n░█████████ ░██ ░█ █ ░█░██  ███ ░██░██    ░██░█ █ ░█░██  ███ ░██░██ ░░██ ░██\n░░░░░░░░██ ░██ ░██  ░█░██ ██░██░██░██    ░██░██  ░█░██ ██░██░██░██  ░░██░██\n       ░██ ░██ ░█   ░█░████ ░░████░██    ██ ░█   ░█░████ ░░████░██   ░░████\n ████████  ████░ ████ ░██░   ░░░██░███████  ░ ████ ░██░   ░░░██░██    ░░███\n░░░░░░░░  ░░░░  ░░░░  ░░       ░░ ░░░░░░░    ░░░░  ░░       ░░ ░░      ░░░ ",
+    "paragraphs": [
+      "We are s10wd0wn, a passionate CTF (Capture The Flag) cybersecurity team. We thrive on solving complex challenges across various domains — from binary exploitation and reverse engineering to cryptography, web security, and forensics.",
+      "Our team brings together diverse expertise and a shared dedication to the craft. Every competition is an opportunity to learn, innovate, and push the boundaries of what we know."
+    ]
+  },
+
+  "pages": {
+    "members": {
+      "comment": "# cat members.txt",
+      "title": "Team Members",
+      "description": "The people behind s10wd0wn"
+    },
+    "honors": {
+      "comment": "# cat honors.json | jq",
+      "title": "Honors & Awards",
+      "description": "Our achievements in CTF competitions"
+    },
+    "writeups": {
+      "comment": "# ls -la /writeups/",
+      "title": "Writeups",
+      "description": "Detailed solutions and technical analyses"
+    },
+    "projects": {
+      "comment": "# ls -la /projects/",
+      "title": "Projects",
+      "description": "Tools and software we've built"
+    }
+  },
+
+  "members": [
+    {
+      "name": "ST4R",
+      "avatar": "https://nanxer-1322358327.cos.ap-guangzhou.myqcloud.com/blog/st4r.jpg",
+      "role": "REVERSE || Captain",
+      "description": "纯情183清纯男大",
+      "links": {
+        "github": "https://github.com/dxz0069",
+        "twitter": "",
+        "website": "https://st4r.slowdown.asia"
+      }
+    },
+    {
+      "name": "Nanxer",
+      "avatar": "https://nanxer-1322358327.cos.ap-guangzhou.myqcloud.com/blog/header.png",
+      "role": "Crypto",
+      "description": "被AI调教中的密码牢",
+      "links": {
+        "github": "https://github.com/nanxer",
+        "twitter": "",
+        "website": "https://nanxer.it4keth2ee.top"
+      }
+    },
+    {
+      "name": "dreamCat",
+      "avatar": "https://nanxer-1322358327.cos.ap-guangzhou.myqcloud.com/blog/dreamCat.jpg",
+      "role": "REVERSE",
+      "description": "RE之神",
+      "links": {
+        "github": "https://github.com/yimeng261",
+        "twitter": "",
+        "website": "https://dreamcat.slowdown.asia"
+      }
+    },
+    {
+      "name": "O-O",
+      "avatar": "https://nanxer-1322358327.cos.ap-guangzhou.myqcloud.com/blog/202603042216448157118.jpg",
+      "role": "PWN",
+      "description": "还不准备搭博客的pwner",
+      "links": {
+        "github": "",
+        "twitter": "",
+        "website": ""
+      }
+    },
+    {
+      "name": "let me see",
+      "avatar": "https://nanxer-1322358327.cos.ap-guangzhou.myqcloud.com/blog/202603040001.jpg",
+      "role": "WEB",
+      "description": "速速来膜拜XY姐",
+      "links": {
+        "github": "",
+        "twitter": "",
+        "website": ""
+      }
+    }
+  ],
+
+  "honors": [
+    {
+      "title": "第三届古剑山全国大学生网络攻防大赛 - 1st Place",
+      "image": "",
+      "description": "Achieved first place at 第三届古剑山全国大学生网络攻防大赛."
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "FrontendScout",
+      "image": "",
+      "description": "前端业务逻辑漏洞扫描工具",
+      "link": ""
+    },
+    {
+      "title": "CTFX",
+      "image": "",
+      "description": "魔改版codex",
+      "link": ""
+    }
+  ]
+}

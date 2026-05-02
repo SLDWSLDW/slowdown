@@ -1,17 +1,18 @@
-import honors from '../data/honors.json'
+import config from '../../config.json'
 
 export default function Honors() {
+  const { comment, title, description } = config.pages.honors
   return (
     <div className="page honors-page">
       <div className="page-header">
-        <span className="section-comment"># cat honors.json | jq</span>
-        <h1>Honors & Awards</h1>
-        <p className="page-description">Our achievements in CTF competitions</p>
+        <span className="section-comment">{comment}</span>
+        <h1>{title}</h1>
+        <p className="page-description">{description}</p>
       </div>
 
       <div className="honors-list">
-        {honors.map((honor) => (
-          <div key={honor.id} className="honor-card">
+        {config.honors.map((honor, idx) => (
+          <div key={idx} className="honor-card">
             <div className="honor-main">
               {honor.image ? (
                 <img src={honor.image} alt={honor.title} className="honor-thumb" />
