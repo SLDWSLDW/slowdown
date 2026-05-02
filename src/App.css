@@ -672,7 +672,6 @@
   flex: 1;
   min-width: 0;
   background: var(--bg-secondary);
-  border: 1px solid var(--border);
   border-radius: 12px;
   padding: 32px;
   animation: writeupContentIn 400ms ease-out;
@@ -834,13 +833,24 @@
 
 .markdown-body pre {
   margin: 16px 0;
-  border-radius: 8px;
-  overflow: hidden;
-  border: 1px solid var(--border);
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
-.markdown-body pre div {
-  border-radius: 8px !important;
+.markdown-body pre::-webkit-scrollbar {
+  display: none;
+}
+
+.markdown-body pre > div {
+  border-radius: 0 !important;
+  overflow: auto !important;
+  scrollbar-width: none !important;
+  -ms-overflow-style: none !important;
+}
+
+.markdown-body pre > div::-webkit-scrollbar {
+  display: none !important;
 }
 
 .markdown-body table {
@@ -928,7 +938,6 @@
 /* Image in markdown */
 .markdown-body img {
   max-width: 100%;
-  border-radius: 8px;
   margin: 16px 0;
   border: 1px solid var(--border);
 }
@@ -944,10 +953,16 @@
 .footer-inner {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 32px 24px;
+  padding: 20px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.footer-body {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 3px;
 }
 
 .footer-line {
@@ -964,6 +979,24 @@
 .footer-path { color: var(--text-secondary); }
 .footer-text { color: var(--text-secondary); }
 .footer-output { color: var(--text-muted); font-size: 12px; }
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.footer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted) !important;
+  transition: color 0.15s;
+}
+
+.footer-link:hover {
+  color: var(--accent) !important;
+}
 
 /* ==================== Animations ==================== */
 

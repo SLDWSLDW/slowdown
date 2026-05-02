@@ -2,7 +2,11 @@
   "footer": {
     "comment": "# EOF",
     "shell": "echo \"Made with ❤️ by s10wd0wn Team\"",
-    "copyright": "\u00a9 2025-2026 s10wd0wn. All rights reserved."
+    "copyright": "\u00a9 2025-2026 s10wd0wn. All rights reserved.",
+    "links": {
+      "github": "https://github.com/SLDWSLDW",
+      "email": "mailto:s10wd0wn@example.com"
+    }
   },
 
   "home": {
